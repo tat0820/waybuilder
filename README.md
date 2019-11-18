@@ -1,7 +1,7 @@
 # README
 
 ## pictweet
-Pictweet is an app like twitter.<br>
+Pictweet is a twitter-like app.<br>
 Users can upload texts,images,and also comments about the posts.
 
 ![pictweet](pictweet.gif)
