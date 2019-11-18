@@ -1,0 +1,10 @@
+<div calss="contents row">
+    <%= form_tag("/ways/#{@orange.id}", method: 'patch') do %>
+  <h3>
+    編集する
+  </h3>
+  <input placeholder="Image Url" type="text" name="image" value="<%= @orange.image %>"  autofocus="true">
+  <textarea cols="30" name="text" placeholder="text" rows="10"><%= @orange.text %></textarea>
+  <input type="submit" value="SENT">
+  <% end %>
+</div>

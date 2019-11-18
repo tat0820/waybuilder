@@ -1,0 +1,9 @@
+  <div class="contents row" >
+    <p><%= @nickname %>さんの投稿一覧</p>
+    <% @oranges.each do |orange| %>
+      <div class="content_post" style="background-image: url(<%= orange.image %>);">
+        <%= simple_format(orange.text) %>
+      </div>
+    <% end %>
+    <%= paginate(@oranges) %>
+  </div>
