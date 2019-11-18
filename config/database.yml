@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: waybuilder_production
-  username: waybuilder
-  password: <%= ENV['WAYBUILDER_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
