@@ -1,7 +1,18 @@
 # README
 
 ## pictweet
-Pictweet is a twitter-like app.<br>
-Users can upload texts,images,and also comments about the posts.
-
+写真、テキストを投稿するアプリ。<br>
+<br>
 ![pictweet](pictweet.gif)
+
+## 制作背景
+学校（TECH::EXPERT）の製作課題。
+
+## 工夫したところ
+・ユーザー新規登録、ログイン機能<br>
+・投稿、編集、削除機能<br>
+・コメント機能　　　　　　等
+
+## 今後実装したい機能
+・各データのデータベース登録<br>
+・簡易投稿機能（画像のトリミング等も自動化）
